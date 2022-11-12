@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temp URL</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/javascript/javascript.js"></script>
+    </head>
+    <body>
+        <div class="uploader">
+            <form action="/uploads" id="upload_form" method="post" enctype="multipart/form-data">
+                <input id="files" type="file" accept="/image*"  class="hidden" onchange="saveFile()" name="user_file">
+                <label class="fileSelector" for="files">Select file to upload</label>
+            </form>
+        </div>
+    </body>
+</html>
